@@ -1,26 +1,71 @@
-# Privacy Policy for VPN Client Application  
+# Privacy Policy for Netvora
 
-## Introduction  
-At VPN Client Application, we value your privacy. This Privacy Policy outlines the personal information we collect, how we use it, and how we protect your information.  
+**Effective Date:** April 23, 2026  
+**Last Updated:** April 23, 2026
 
-## Information We Collect  
-- **Personal Information**: We do not collect personal information such as your name, address, or email address when you use our VPN services.  
-- **Usage Data**: We may collect information about how you use our application, including your IP address, device type, and operating system.  
+---
 
-## How We Use Your Information  
-- To provide and maintain our service  
-- To improve our application features and performance  
+## Table of Contents
+1. [No-Logs Policy](#1-no-logs-policy)
+2. [Information We Do Not Collect](#2-information-we-do-not-collect)
+3. [Usage of VpnService API](#3-usage-of-vpnservice-api)
+4. [Limited Technical Data](#4-limited-technical-data)
+5. [Third-Party Services](#5-third-party-services)
+6. [Children’s Privacy](#6-childrens-privacy)
+7. [Compliance](#7-compliance-with-google-play-policies)
+8. [Changes to This Policy](#8-changes-to-this-policy)
+9. [Contact Us](#9-contact-us)
 
-## Data Protection  
-We take the security of your information seriously and use various measures to protect it. However, please remember that no method of transmission over the internet or method of electronic storage is 100% secure.  
+---
 
-## Third-Party Services  
-Our services may contain links to other sites that are not operated by us. We are not responsible for the privacy practices of these third-party sites.  
+Netvora ("**we**," "**us**," or "**our**") is committed to protecting your privacy. This Privacy Policy explains how we handle your information when you use our mobile application.
 
-## Changes to This Privacy Policy  
-We may update our Privacy Policy from time to time. Any changes will be effective immediately upon posting the updated policy on this page.  
+### 1. No-Logs Policy
+We operate a strict **No-Logs Policy**.
 
-## Contact Us  
-If you have any questions about this Privacy Policy, please contact us at support@vpnclientapplication.com  
+* We **do not** collect, store, or monitor your browsing history, traffic destination, data content, or DNS queries.
+* We **do not** log your IP address during your session.
+* We **do not** associate your identity with your network activities.
 
-*Last updated: 2026-04-23*  
+### 2. Information We Do Not Collect
+Unlike many other apps, Netvora does not require an account. Therefore, we do **not** collect:
+
+* **Identity:** Name, email address, or phone number.
+* **Location:** Real-time location data.
+* **Financials:** Payment or financial information (all subscriptions are handled securely by Google Play).
+
+### 3. Usage of VpnService API
+Netvora utilizes the **Android VpnService** to create a secure, device-level tunnel to remote proxy servers.
+
+* **Core Functionality:** The VpnService allows users to route network traffic through specific protocols including **Vmess, Trojan, and Shadowsocks**.
+* **Data Encryption:** All data transmitted through the tunnel created by Netvora is encrypted from the device to the tunnel endpoint.
+* **Privacy Assurance:** We do not collect or share any personal or sensitive user data through the VpnService.
+
+### 4. Limited Technical Data
+To ensure app stability and improve performance, we may collect anonymized technical data:
+
+| Data Type | Purpose |
+| :--- | :--- |
+| **Crash Reports** | Debugging via Google Firebase Crashlytics |
+| **Device Info** | Identifying issues with specific models or OS versions |
+| **Metrics** | Measuring connection success rates and app performance |
+
+> [!NOTE]
+> This data is purely for diagnostic purposes and **cannot** be used to identify you.
+
+### 5. Third-Party Services
+Netvora is a **"client-only"** tool. While we provide the software, the **Server Configurations (nodes)** are provided by you, the user. We are not responsible for the privacy practices of third-party server providers or protocols you choose to use.
+
+### 6. Children’s Privacy
+Netvora is not intended for use by children under the age of 13. We do not knowingly collect personal information from children.
+
+### 7. Compliance with Google Play Policies
+This policy is designed to comply with the **Google Play Developer Program Policies**, specifically regarding the use of the `VpnService` API and the protection of user data.
+
+### 8. Changes to This Policy
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the **"Effective Date"** at the top of this document.
+
+### 9. Contact Us
+If you have any questions about this Privacy Policy, please reach out:
+
+* **Email:** `devf09@gmail.com`
